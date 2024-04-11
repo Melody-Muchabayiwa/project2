@@ -10,20 +10,20 @@
   justify-content: center;
   align-items: center;
   background-image: url(../img/bg-masthead.jpg);
-  height: 80vh;
+  height: 105vh;
   background-size: cover;
   width: 100%;
   position: relative;
 }
 .hero h1 {
-  font-size: 60px;
+  font-size: 75px;
   font-size: 70px;
 }
 .hero p {
   font-size: 20px;
 }
 .hero button {
-  height: 10%;
+  height: 6%;
   background-color: blue;
   color: white;
   border: 0px solid blue;
@@ -35,7 +35,7 @@
 .icons {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: grey;
   width: 2%;
   border-radius: 3px;
@@ -63,9 +63,10 @@
   align-content: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  height: 50vh;
 }
 .two h2 {
-  font-size: 25px;
+  font-size: 35px;
 }
 .two button {
   height: 10%;
@@ -74,11 +75,11 @@
   border: 0px solid black;
   padding: 15px;
   margin-top: 30px;
-  border-radius: 3px;
+  padding-bottom: 30px;
 }
 
 .three {
-  height: 40vh;
+  height: 65vh;
   text-align: center;
   align-content: center;
   background-color: rgb(14, 114, 153);
@@ -86,6 +87,11 @@
 }
 .three h4 {
   color: yellow;
+  font-size: 17px;
+}
+.three h2 {
+  font-size: 32px;
+  color: white;
 }
 
 .four {
@@ -93,18 +99,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-image: url(../img/bg-callout.jpg);
-  height: 80vh;
+  height: 100vh;
   background-size: cover;
   width: 100%;
   position: relative;
 }
 .four h2 {
   font-size: 30px;
-  font-size: 50px;
+  font-size: 70px;
 }
 .four button {
-  height: 10%;
+  height: 8%;
   background-color: rgb(14, 114, 153);
   color: white;
   border: 0px solid rgb(14, 114, 153);
@@ -115,14 +122,18 @@
 
 .five {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 80px;
   position: relative;
+  margin-bottom: 80px;
 }
 .five h4 {
   color: yellow;
 }
 .five h3 {
-  font-size: 13px;
+  font-size: 12px;
+}
+.five h2 {
+  font-size: 30px;
 }
 .five .container {
   -moz-column-count: 2;
@@ -146,7 +157,7 @@
 .five .ice {
   position: absolute;
   top: 280px;
-  right: 350px;
+  right: 320px;
   text-align: left;
   color: white;
 }
@@ -160,7 +171,7 @@
 .five .space {
   position: absolute;
   bottom: 80px;
-  right: 330px;
+  right: 300px;
   text-align: left;
   color: white;
 }
@@ -170,9 +181,10 @@
   align-content: center;
   padding: 60px;
   background-color: rgb(14, 114, 153);
+  height: 60vh;
 }
 .six h2 {
-  font-size: 25px;
+  font-size: 35px;
   color: white;
 }
 .six .butt {
@@ -212,19 +224,19 @@
 .items .items-inner .img {
   background-color: #fff;
   border-radius: 100%;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .items .items-inner .img img {
-  height: 40%;
+  height: 32%;
 }
 
 .last {
   background-image: url("../img/map.jpeg");
-  height: 100vh;
+  height: 102vh;
 }
 
 footer {

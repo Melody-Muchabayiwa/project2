@@ -6,15 +6,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/bg-masthead.jpg); height: 80vh; background-size: cover; width: 100%; position: relative;
-    h1{font-size: 60px; font-size: 70px;} 
+    background-image: url(../img/bg-masthead.jpg); height: 105vh; background-size: cover; width: 100%; position: relative;
+    h1{font-size: 75px; font-size: 70px;} 
     p{font-size: 20px;}
-    button{ height: 10%; background-color: blue;color: white; border: 0px solid blue; padding: 15px; margin-top: 30px;border-radius: 3px;}
+    button{ height: 6%; background-color: blue;color: white; border: 0px solid blue; padding: 15px; margin-top: 30px;border-radius: 3px;}
 
 }
    
 .icons{
-    display: flex;flex-direction: column;justify-content: space-between;;background-color: grey; width: 2%; border-radius: 3px; height: 3%; padding: 10px 10px; position: absolute; top: 20px; right: 10px;
+    display: flex;flex-direction: column; justify-content: space-evenly;background-color: grey; width: 2%; border-radius: 3px; height: 3%; padding: 10px 10px; position: absolute; top: 20px; right: 10px;
         .icon{color: white; height: 2px; margin-bottom: 2px; background-color: white; border-radius: 5px;}
 
 }
@@ -24,14 +24,15 @@
 }
 
 .two{
-    text-align: center; align-content: center; margin-top: 80px; margin-bottom: 80px;
-    h2{font-size: 25px;}
-     button{ height: 10%; background-color: black;color: white; border: 0px solid black; padding: 15px; margin-top: 30px;border-radius: 3px;}
+    text-align: center; align-content: center; margin-top: 80px; margin-bottom: 80px; height: 50vh;
+    h2{font-size: 35px;}
+     button{ height: 10%; background-color: black;color: white; border: 0px solid black; padding: 15px; margin-top: 30px; padding-bottom: 30px;}
 }
 .three{
-    height: 40vh;
-    text-align: center; align-content: center; background-color: rgb(14, 114, 153); padding-top: 40px; 
-    h4{color: yellow;}
+    height: 65vh;
+    text-align: center; align-content: center; background-color: rgb(14, 114, 153); padding-top: 40px;
+    h4{color: yellow; font-size: 17px;}
+    h2{font-size: 32px; color: white;}
   
 }
 .four{
@@ -39,16 +40,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/bg-callout.jpg); height: 80vh;  background-size: cover; width: 100%; position: relative;
-    h2{font-size: 30px; font-size: 50px;} 
-    button{ height: 10%; background-color: rgb(14, 114, 153);color: white; border: 0px solid rgb(14, 114, 153); padding: 15px; margin-top: 30px;border-radius: 3px;}
+    text-align: center;
+    background-image: url(../img/bg-callout.jpg); height: 100vh;  background-size: cover; width: 100%; position: relative;
+    h2{font-size: 30px; font-size: 70px;} 
+    button{ height: 8%; background-color: rgb(14, 114, 153);color: white; border: 0px solid rgb(14, 114, 153); padding: 15px; margin-top: 30px;border-radius: 3px;}
    
 }
-.five{text-align: center; margin-top: 40px; position: relative;   
+.five{text-align: center; margin-top: 80px; position: relative; margin-bottom: 80px;  
     h4{color: yellow;} 
-    h3{
-        font-size: 13px;
-    }
+    h3{ font-size: 12px;}
+    h2{font-size: 30px;}
     
     .container{column-count: 2;
         display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding-top: 30px;
@@ -65,7 +66,7 @@
        .ice{
         position: absolute;
         top: 280px;
-        right: 350px;
+        right: 320px;
         text-align: left;
         color: white;
    }
@@ -80,22 +81,22 @@
     .space{
         position: absolute;
         bottom: 80px;
-        right: 330px;
+        right: 300px;
         text-align: left;
         color: white;
     }
 }
 .six{
-    text-align: center; align-content: center; padding: 60px; background-color: rgb(14, 114, 153);
-    h2{font-size: 25px; color: white;}
+    text-align: center; align-content: center; padding: 60px; background-color: rgb(14, 114, 153); height: 60vh;
+    h2{font-size: 35px; color: white;}
     .butt{ height: 10%; background-color: white;color: black; border: 0px solid white; padding: 15px; margin-top: 30px;border-radius: 3px; justify-content:center}
      button{ height: 10%; background-color: grey;color: white; border: 0px solid grey; padding: 15px; margin-top: 30px;border-radius: 3px;}
 }
 
 .items{display: flex;padding:4%;align-items: center;justify-content: center; justify-content: space-evenly;
     .items-inner{display: flex;flex-direction:column;justify-content:center;align-items:center;padding:0 20px;
-        .img{background-color: #fff;border-radius:100% ;height:60px;width:60px;display:flex;align-items:center;justify-content:center;
-            img{height: 40%;}
+        .img{background-color: #fff;border-radius:100% ;height:50px;width:50px;display:flex;align-items:center;justify-content:center;
+            img{height: 32%;}
         }
 
 
@@ -103,7 +104,7 @@
 }
 .last{
     background-image: url("../img/map.jpeg");
-    height: 100vh;
+    height: 102vh;
 }
 footer{padding:55px 0;}
 
